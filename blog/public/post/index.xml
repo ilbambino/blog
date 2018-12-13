@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Un mixto por favor</title>
+    <link>https://yute.com/post/</link>
+    <description>Recent content in Posts on Un mixto por favor</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Creative Commons</copyright>
+    <lastBuildDate>Thu, 13 Dec 2018 08:05:04 +0100</lastBuildDate>
+    
+	<atom:link href="https://yute.com/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Managing Redash from Code</title>
+      <link>https://yute.com/post/redpush/</link>
+      <pubDate>Thu, 13 Dec 2018 08:05:04 +0100</pubDate>
+      
+      <guid>https://yute.com/post/redpush/</guid>
+      <description>In my company we use Redash quite a lot to display vast amount of information. If you don&amp;rsquo;t know Redash, maybe you should check it out, it is an open source tool that connects to many different DBs and you can run SQL queries and generate many graphs out of them. It is quite powerful and simple to use. Of course it does not have the flexibility of coding things directly, but for the basic use cases it is really fast.</description>
+    </item>
+    
+    <item>
+      <title>Resuming</title>
+      <link>https://yute.com/post/resuming/</link>
+      <pubDate>Wed, 12 Dec 2018 17:27:36 +0100</pubDate>
+      
+      <guid>https://yute.com/post/resuming/</guid>
+      <description>This was once hosted on Tumblr with the intention to become my personal blog where I would add things I was working on or learning. It never got passed a few entries with very outdated code (somethings not even valid today).
+I have decided to use GoHugo, and hosting it on Firebase that you get HTTP2 and other goodies for free. Hence I have decided to remove the old content and not bother to move it here.</description>
+    </item>
+    
+  </channel>
+</rss>

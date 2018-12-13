@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://yute.com/post/redpush/</loc>
+    <lastmod>2018-12-13T08:05:04+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yute.com/post/resuming/</loc>
+    <lastmod>2018-12-12T17:27:36+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yute.com/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://yute.com/post/</loc>
+    <lastmod>2018-12-13T08:05:04+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://yute.com/tags/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://yute.com/</loc>
+    <lastmod>2018-12-13T08:05:04+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+</urlset>
