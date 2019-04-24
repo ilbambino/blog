@@ -1,14 +1,18 @@
 baseURL = "https://yute.com/"
 languageCode = "en-us"
 copyright = "Creative Commons"
-title = "Un mixto por favor"
+title = "Un mixto, por favor"
 theme = "indigo"
+pygmentsUseClasses = true
+pygmentsCodefences = true
 
 [params]
   Author = "álvaro"
   Description = "álvaro's personal rumblings"
-  Subtitle = "álvaro's personal rumblings"
+  Subtitle = "álvaro's personal rumblings, mostly things I have been doing/learning over time."
   Avatar = "images/site-logo.svg"
   Biography = "A short description, a few sentences describing the author. Set the 'ShowBio' parameter to false to hide this."
   ShowBio = false
   PermalinkText = "🔗"
+  GitHubUser = "ilbambino"
+  TwitterUser = "alblurrow"
