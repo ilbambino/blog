@@ -4,7 +4,7 @@ date: 2019-09-30T09:03:00+01:00
 draft: false
 ---
 
-In this second part (read [part 1({{<relref "secrets-git">}})] if you haven't), we will see how we did to manage different flavors of the apps, and having both staging and production versions of the same. One requirement is to keep all the important secrets [secured in git]({{<relref "secrets-git">}}). We will abuse Gradle a little and create a couple of scripts to help us out.
+In this second part (read [part 1]({{<relref "secrets-git">}}) if you haven't), we will see how we did to manage different flavors of the apps, and having both staging and production versions of the same. One requirement is to keep all the important secrets [secured in git]({{<relref "secrets-git">}}). We will abuse Gradle a little and create a couple of scripts to help us out.
 
 We are going to build an app that will have two different flavors. Let's say that one will be `skin1` and the other will be `skin2` (very original names). Inside the assets folders you can change some colors, images etc. (something we will not do in this example). Besides having two different versions of the app being built form the same source base, we want also to be able to build them targeting different environments: `testing` and `production`. We will have different Google Play entries for them so we need to sign them with different keys.
 
