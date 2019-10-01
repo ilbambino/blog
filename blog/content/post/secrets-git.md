@@ -23,6 +23,12 @@ At the time that I did this installation, there was a small problem: git-crypt e
 lrwxr-xr-x  1 root    admin  27 Apr  5  2018 /usr/local/bin/gpg -> /usr/local/MacGPG2/bin/gpg2
 ```
 
+You can create it with:
+
+```bash
+$ sudo ln -sfn /usr/local/bin/gpg /usr/local/MacGPG2/bin/gpg2
+```
+
 If you have never used `gpg`, the first thing you need to do is to create a signing key:
 
 ```bash
@@ -44,7 +50,7 @@ secretfile filter=git-crypt diff=git-crypt
 secretdir/** filter=git-crypt diff=git-crypt
 ```
 
-You will need to modify the file. It follows the same idea as the `.gitignore`. You need to define which files will be encrypted. Be careful not to encrypt any files needed by git `.git*`. You need to edit this file before adding the sensitive files. Otherwise they will be in the history unencrypted. Adding them is as always, using `git add`.
+You will need to modify the file. It follows the same idea as the `.gitignore`. You need to define which files will be encrypted. Be careful not to encrypt any file needed by git `.git*`. You need to edit this file before adding the sensitive files. Otherwise they will be in the history unencrypted. Adding them is as always, using `git add`.
 
 To be able to access the files, the gpg keys need to be added to the ring. The first one is yourself, so you can see the encrypted files:
 
