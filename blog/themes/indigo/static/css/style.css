@@ -506,13 +506,13 @@ table tfoot td {
 /* KeywordPseudo */ .chroma .kp { color: #2d7533 }
 /* KeywordReserved */ .chroma .kr { color: #2d7533 }
 /* KeywordType */ .chroma .kt { color: #2d7533 }
-/* NameAttribute */ .chroma .na { color: #a6e22e }
+/* NameAttribute */ .chroma .na { color: #080177 }
 /* NameClass */ .chroma .nc { color: #a6e22e }
 /* NameConstant */ .chroma .no { color: #2d7533 }
 /* NameDecorator */ .chroma .nd { color: #a6e22e }
 /* NameException */ .chroma .ne { color: #a6e22e }
-/* NameFunction */ .chroma .nf { color: #a6e22e }
-/* NameOther */ .chroma .nx { color: #a6e22e }
+/* NameFunction */ .chroma .nf { color: #080177 }
+/* NameOther */ .chroma .nx { color: #6a0094 }
 /* NameTag */ .chroma .nt { color: #f92672 }
 /* Literal */ .chroma .l { color: #ae81ff }
 /* LiteralDate */ .chroma .ld { color: #75715e }
