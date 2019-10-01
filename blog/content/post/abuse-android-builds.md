@@ -2,6 +2,7 @@
 title: "Abusing Android build system"
 date: 2019-09-30T09:03:00+01:00
 draft: false
+summary: A way to manage multiple Android flavours and releases storing the secrets securely in Git
 ---
 
 In this second part (read [part 1]({{<relref "secrets-git">}}) if you haven't), we will see how we did to manage different flavors of the apps, and having both staging and production versions of the same. One requirement is to keep all the important secrets [secured in git]({{<relref "secrets-git">}}). We will abuse Gradle a little and create a couple of scripts to help us out.

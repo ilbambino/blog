@@ -2,6 +2,7 @@
 title: "Secrets in Git"
 date: 2019-09-27T09:03:00+01:00
 draft: false
+summary: HOWTO store secrets easily in git using git-crypt. Our way to keep Android signing keys.
 ---
 
 In FWD we had an interesting problem, we had to build and release Android apps for many operators. All of them were built from the same source base using [Android flavors](https://developer.android.com/studio/build/build-variants). We started before Google Play offered the [managed signed certificates](https://developer.android.com/studio/publish/app-signing), hence we wanted a secure way to manage all the certificates, but also a way that could automate the build process. In these two posts I will try to explain the solution we implemented, using [git-crypt](https://www.agwa.name/projects/git-crypt/) and [abusing Gradle]({{<relref "abuse-android-builds">}}) a little.
